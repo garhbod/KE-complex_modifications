@@ -2,6 +2,11 @@
 
 const applicationIdentifierCategories = {
 
+  'ide': [
+    '^com\\.jetbrains\\.',
+    '^com\\.microsoft\\.VSCode$',
+  ],
+
   'remote-virtual': [
     '^com\\.microsoft\\.rdc$',
     '^com\\.microsoft\\.rdc\\.mac$',
@@ -113,9 +118,9 @@ console.log(
         {
           description: 'Cut/Copy/Paste: Ctrl + X/C/V => Cmd + X/C/V',
           manipulators: [
-            buildManipulator('c', ['control'], 'c', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('v', ['control'], 'v', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('x', ['control'], 'x', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
+            buildManipulator('c', ['control'], 'c', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('v', ['control'], 'v', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('x', ['control'], 'x', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
           ],
         },
         {
@@ -129,7 +134,7 @@ console.log(
               ['left_command'],
               [
                 { input_sources: [{ language: '^de$' }], type: 'input_source_if' },
-                buildAppCondition(['remote-virtual', 'terminal'])
+                buildAppCondition(['ide', 'remote-virtual', 'terminal'])
               ]
             ),
             // For other input sources.
@@ -140,7 +145,7 @@ console.log(
               ['left_command'],
               [
                 { input_sources: [{ language: '^de$' }], type: 'input_source_unless' },
-                buildAppCondition(['remote-virtual', 'terminal'])
+                buildAppCondition(['ide', 'remote-virtual', 'terminal'])
               ]
             ),
           ],
@@ -157,7 +162,7 @@ console.log(
               ['left_command', 'left_shift'],
               [
                 { input_sources: [{ language: '^de$' }], type: 'input_source_if' },
-                buildAppCondition(['remote-virtual', 'terminal'])
+                buildAppCondition(['ide', 'remote-virtual', 'terminal'])
               ]
             ),
             // For other input sources.
@@ -168,7 +173,7 @@ console.log(
               ['left_command', 'left_shift'],
               [
                 { input_sources: [{ language: '^de$' }], type: 'input_source_unless' },
-                buildAppCondition(['remote-virtual', 'terminal'])
+                buildAppCondition(['ide', 'remote-virtual', 'terminal'])
               ]
             ),
           ],
@@ -176,43 +181,43 @@ console.log(
         {
           description: 'Select All: Ctrl + A => Cmd + A',
           manipulators: [
-            buildManipulator('a', ['control'], 'a', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
+            buildManipulator('a', ['control'], 'a', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
           ],
         },
         {
           description: 'New/Save/Open/Close: Ctrl + N/S/O/W => Cmd + N/S/O/W',
           manipulators: [
-            buildManipulator('n', ['control'], 'n', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('s', ['control'], 's', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('o', ['control'], 'o', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('w', ['control'], 'w', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
+            buildManipulator('n', ['control'], 'n', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('s', ['control'], 's', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('o', ['control'], 'o', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('w', ['control'], 'w', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
           ],
         },
         {
           description: 'Find/Find Next|Go To: Ctrl + F/G => Cmd + F/G',
           manipulators: [
-            buildManipulator('f', ['control'], 'f', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('g', ['control'], 'g', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
+            buildManipulator('f', ['control'], 'f', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('g', ['control'], 'g', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
           ],
         },
         {
           description: 'Exit Application|Quit: Alt + F4 => Cmd + Q',
           manipulators: [
-            buildManipulator('f4', ['option'], 'q', ['left_command'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('f4', ['option'], 'q', ['left_command'], [buildAppCondition(['ide', 'remote-virtual'])]),
           ],
         },
         {
           description: 'New Tab: Ctrl + T => Cmd + T',
           manipulators: [
-            buildManipulator('t', ['control'], 't', ['left_command'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('t', ['control'], 't', ['left_command'], [buildAppCondition(['ide', 'remote-virtual'])]),
           ],
         },
         {
           description: 'Bold/Italic/Underline: Ctrl + B/I/U => Cmd + B/I/U',
           manipulators: [
-            buildManipulator('b', ['control'], 'b', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('i', ['control'], 'i', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
-            buildManipulator('u', ['control'], 'u', ['left_command'], [buildAppCondition(['remote-virtual', 'terminal'])]),
+            buildManipulator('b', ['control'], 'b', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('i', ['control'], 'i', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
+            buildManipulator('u', ['control'], 'u', ['left_command'], [buildAppCondition(['ide', 'remote-virtual', 'terminal'])]),
           ],
         },
         {
@@ -232,17 +237,17 @@ console.log(
           description: 'Cursor Navigation: Home, End, Arrow Jumps, etc',
           manipulators: [
             // Move cursor to beginning of line
-            buildManipulator('home', [], 'left_arrow', ['left_command'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('home', [], 'left_arrow', ['left_command'], [buildAppCondition(['ide', 'remote-virtual'])]),
             // Move cursor to beginning of file
-            buildManipulator('home', ['control'], 'up_arrow', ['left_command'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('home', ['control'], 'up_arrow', ['left_command'], [buildAppCondition(['ide', 'remote-virtual'])]),
             // Move cursor to end of line
-            buildManipulator('end', [], 'right_arrow', ['left_command'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('end', [], 'right_arrow', ['left_command'], [buildAppCondition(['ide', 'remote-virtual'])]),
             // Move cursor to end of file
-            buildManipulator('end', ['control'], 'down_arrow', ['left_command'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('end', ['control'], 'down_arrow', ['left_command'], [buildAppCondition(['ide', 'remote-virtual'])]),
             // Move cursor one word to the left
-            buildManipulator('left_arrow', ['control'], 'left_arrow', ['left_option'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('left_arrow', ['control'], 'left_arrow', ['left_option'], [buildAppCondition(['ide', 'remote-virtual'])]),
             // Move cursor one word to the right
-            buildManipulator('right_arrow', ['control'], 'right_arrow', ['left_option'], [buildAppCondition(['remote-virtual'])]),
+            buildManipulator('right_arrow', ['control'], 'right_arrow', ['left_option'], [buildAppCondition(['ide', 'remote-virtual'])]),
           ],
         },
         {

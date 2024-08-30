@@ -32,6 +32,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -93,6 +95,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -154,6 +158,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -228,6 +234,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -297,6 +305,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -372,6 +382,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -442,6 +454,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -508,6 +522,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -574,6 +590,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -635,6 +653,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -696,6 +716,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -757,6 +779,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -823,6 +847,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -884,6 +910,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -950,6 +978,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1008,6 +1038,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1066,6 +1098,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1127,6 +1161,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1188,6 +1224,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1374,6 +1412,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1427,6 +1467,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1478,6 +1520,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1531,6 +1575,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1584,6 +1630,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
@@ -1637,6 +1685,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.jetbrains\\.",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
                 "^com\\.microsoft\\.rdc\\.macos$",
