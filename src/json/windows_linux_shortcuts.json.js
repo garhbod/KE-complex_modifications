@@ -251,13 +251,13 @@ console.log(
           ],
         },
         {
-          description: 'Lock Computer: Cmd+L => Ctrl + Cmd + Q',
+          description: 'Lock Computer: Cmd + L => Ctrl + Cmd + Q',
           manipulators: [
             buildManipulator('l', ['command'], 'q', ['left_control', 'left_command']),
           ],
         },
         {
-          description: 'Lock Computer (Alternate): Alt+L => Ctrl + Cmd + Q',
+          description: 'Lock Computer (Alternate): Alt + L => Ctrl + Cmd + Q',
           manipulators: [
             buildManipulator('l', ['option'], 'q', ['left_control', 'left_command']),
           ],

@@ -1718,7 +1718,7 @@
       ]
     },
     {
-      "description": "Lock Computer: Cmd+L => Ctrl + Cmd + Q",
+      "description": "Lock Computer: Cmd + L => Ctrl + Cmd + Q",
       "manipulators": [
         {
           "type": "basic",
@@ -1746,7 +1746,7 @@
       ]
     },
     {
-      "description": "Lock Computer (Alternate): Alt+L => Ctrl + Cmd + Q",
+      "description": "Lock Computer (Alternate): Alt + L => Ctrl + Cmd + Q",
       "manipulators": [
         {
           "type": "basic",
